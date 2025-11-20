@@ -1,0 +1,163 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+  body {
+      /* font-family: 'Open Sans', sans-serif;position: */
+
+ }
+        
+header{
+    width: 100%;background-color:#3b3b3bde;display: flex;color: white;justify-content: space-between;align-items: center;
+    position: fixed;top: 0;left: 0;z-index: 1000;   
+}
+.logo{
+    color: #ffffff;font: 24px "open sans";
+}
+.head{
+    padding: 10px 20px;
+}
+.navbar{
+    padding: 20px 60px;
+}
+.navbar a{
+   text-decoration: none;color: #ffffff;margin: 15px;font-size: 20px;
+}
+.first-img {
+    width: 100%;
+    height: 600px;
+    background-image: url('discover img.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* 🔹 keeps image fixed in header */
+    position: relative;
+    /* overflow: hidden; */
+    margin-top: 83px;
+}
+.overlay{
+    position: absolute;top: 0;left: 0;width: 100%;height: 600px;box-shadow: 0 5px 10px rgb(0, 0, 0,0.5) ;display: flex;align-items: center;justify-content: center;
+}
+.overlay h2{
+    font-size: 45px;color: #ffffff;
+}
+.gori-temple{
+    display: flex;padding: 80px;align-items: center;text-align: center;
+}
+.gori-temple h2{
+    color: #606060;font-size: 50px;
+}
+.gori-temple p{
+    text-align: left;padding: 25px;font-size: 18px;color: #808080;
+}
+.gori-temple-img img{
+    width: 500px;height: 400px;
+}
+ button{
+        padding: 15px 20px;background-color: green;color: white;border: none;border-radius: 30px;font-size: 17px;
+    }
+    button:hover{
+        background-color: rgba(0, 128, 0, 0.823);color: black;
+    }
+    .gellary h2{
+        text-align: center;font-size: 50px;padding: 20px;
+    }
+    .gellary{
+       text-align: center;
+    }
+    .gellary-img img{
+        width: 300px;height: 200px;border-radius: 10px;margin: 10px;
+    }
+   footer{
+        width: 100%;
+        height: 200px;background-color: #555555;display: flex;flex-direction: column;align-items: center;justify-content: center;
+    }
+    .scroll-btn{
+        padding: 15px 30px;background-color: white;color: black;
+    }
+    .scroll-btn:hover{
+        background-color: black;color: white;
+    }
+    .footer{
+        text-align: center;
+    }
+    .footer p{
+        margin: 20px;font-size: 17px;
+    }
+   @media (max-width: 600px) {
+
+    header {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .logo {
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+
+    .navbar {
+        padding: 10px;
+    }
+
+    .navbar a {
+        font-size: 16px;
+        margin: 8px;
+    }
+
+    .first-img {
+        height: 350px;
+        background-attachment: scroll; /* mobile fix */
+    }
+
+    .overlay {
+        height: 350px;
+    }
+
+    .overlay h2 {
+        font-size: 28px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    /* Gori Temple Section */
+    .gori-temple {
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .gori-temple h2 {
+        font-size: 32px;
+    }
+
+    .gori-temple p {
+        padding: 10px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .gori-temple-img img {
+        width: 90%;
+        height: auto;
+        margin-top: 15px;
+    }
+
+    button {
+        font-size: 15px;
+        padding: 12px 18px;
+    }
+
+    /* Gallery */
+    .gellary h2 {
+        font-size: 35px;
+    }
+
+    .gellary-img img {
+        width: 90%;
+        height: auto;
+    }
+
+    footer {
+        height: auto;
+        padding: 20px;
+    }
+}

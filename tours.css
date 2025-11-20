@@ -1,0 +1,434 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+ body {
+    overflow-x: hidden;
+}       
+header{
+    width: 100%;background-color:#3b3b3bde;display: flex;color: white;justify-content: space-between;align-items: center;
+    position: fixed;top: 0;left: 0;z-index: 1000;   
+}
+.logo{
+    color: #ffffff;font: 24px "open sans";
+}
+.head{
+    padding: 10px 20px;
+}
+.navbar{
+    padding: 20px 60px;
+}
+.navbar a{
+   text-decoration: none;color: #ffffff;margin: 15px;font-size: 20px;
+}
+.tours{
+    width: 100%;
+    height: 600px;
+    background-image: url('8thar17-1024x768-730x547 two.jpg');
+    background-position: center;background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    margin-top: 83px;
+}
+.overlay-tours{
+     position: absolute;top: 0;left: 0;width: 100%;height: 600px;box-shadow: 0 5px 10px rgb(0, 0, 0,0.5) ;display: flex;align-items: center;justify-content: center;
+}
+.overlay-tours h2{
+     font-size: 40px;color: #ffffff;
+}
+.tours-img{
+    display: flex;justify-content: center;flex-wrap: wrap;
+    width: 100%;box-shadow: 0 10px 20px rgb(0, 0, 0,0.5);margin-top: 100px;gap: 30px;
+}
+.tours-text{
+    padding: 50px;
+}
+.tours-text h2{
+   text-align: center;font-size: 50px;
+}
+.tours-text p{
+    text-align: center;padding:10px 40px;
+}
+.tours-img{
+    display: flex;flex-wrap: wrap;margin: 0px;padding: 20px;gap: 10px;
+}
+/* gori temple */
+.guided-tours-text-img-gori{
+      width: 500px;
+    height: 500px;
+    background-image: url('gori temple img 2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    position: relative;
+    overflow: hidden;
+
+}
+
+.guided-tours-text-img-one-gori{
+      width: 500px;
+    height: 500px;
+    background-image: url('gori templet img 1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.guided-tours-text-img-two-gori{
+      width: 550px;
+    height: 500px;
+    background-image: url('gori temple img 3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.guided-tours-text-img-three-gori{
+      width: 550px;
+    height: 500px;
+    background-image: url('gori temple img 4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    position: relative;
+    overflow: hidden;
+    
+    
+}
+/* umar marvi story */
+.guided-tours-text-img-marvi{
+      width: 550px;
+    height: 500px;
+    background-image: url('marvi img 1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    position: relative;
+    overflow: hidden;
+
+}
+
+.guided-tours-text-img-one-marvi{
+      width: 550px;
+    height: 500px;
+    background-image: url('marvi img 2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.guided-tours-text-img-two-marvi{
+      width: 550px;
+    height: 500px;
+    background-image: url('marvi img 3.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.guided-tours-text-img-three-marvi{
+      width: 550px;
+    height: 500px;
+    background-image: url('marvi img 4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    position: relative;
+    overflow: hidden;
+    
+    
+}
+.guided-tours-text-img-for-marvi{
+      width: 550px;
+    height: 500px;
+    background-image: url('umarkot kalo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    position: relative;
+    overflow: hidden;
+    
+    
+}
+.guided-tours-text-img-five-marvi{
+      width: 550px;
+    height: 500px;
+    background-image: url('umarkot kalo 1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    position: relative;
+    overflow: hidden;
+    
+    
+}
+/* naukot font */
+.guided-tours-text-img-noutkot{
+      width: 550px;
+    height: 500px;
+    background-image: url('Naukot-Fort.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    position: relative;
+    overflow: hidden;
+
+}
+
+.guided-tours-text-img-one-noutkot{
+      width: 550px;
+    height: 500px;
+    background-image: url('naukot fort 1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.guided-tours-text-img-two-noutkot{
+      width: 550px;
+    height: 500px;
+    background-image: url('Naukot-Fort 2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.guided-tours-text-img-three-noutkot{
+      width: 550px;
+    height: 500px;
+    background-image: url('naukot fort 3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    position: relative;
+    overflow: hidden;
+    
+    
+}
+/* karoonhjar */
+.guided-tours-text-img-karoonjhar{
+      width: 500px;
+    height: 500px;
+    background-image: url('karoonhjar img 1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    position: relative;
+    overflow: hidden;
+
+}
+
+.guided-tours-text-img-one-karoonjhar{
+      width: 500px;
+    height: 500px;
+    background-image: url('karoonjhar img 2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.guided-tours-text-img-two-karoonjhar{
+      width: 500px;
+    height: 500px;
+    background-image: url('karoonjhar img.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.guided-tours-text-img-three-karoonjhar{
+      width: 500px;
+    height: 500px;
+    background-image: url('karoonhjar 5.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    position: relative;
+    overflow: hidden;
+    
+    
+}
+/* ghadi bhit */
+.guided-tours-text-img-mithi{
+      width: 500px;
+    height: 500px;
+    background-image: url('mithi img 1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    position: relative;
+    overflow: hidden;
+
+}
+
+.guided-tours-text-img-one-mithi{
+      width: 550px;
+    height: 500px;
+    background-image: url('mithi 2.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.guided-tours-text-img-two-mithi{
+      width: 550px;
+    height: 500px;
+    background-image: url('ghadi bhit 3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.guided-tours-text-img-three-mithi{
+      width: 550px;
+    height: 500px;
+    background-image: url('ghadi bhit 4.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    position: relative;
+    overflow: hidden; 
+}
+.video{
+    padding: 50px;
+}
+ footer{
+        width: 100%;
+        height: 200px;background-color: #555555;display: flex;flex-direction: column;align-items: center;justify-content: center;
+    }
+    .footer{
+        text-align: center;
+    }
+    .footer p{
+        margin: 20px;font-size: 17px;
+    }
+    .scroll-btn{
+        padding: 15px 30px;background-color: black;color: white;border-radius: 30px;border: none;
+    }
+    .scroll-btn:hover{
+        background-color: white;color: black;
+    }
+
+@media (max-width: 600px) {
+
+    header {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .navbar {
+        padding: 10px;
+    }
+
+    .navbar a {
+        margin: 8px;
+        font-size: 16px;
+    }
+
+    .tours {
+        height: 350px;
+        margin-top: 70px;
+        background-attachment: scroll;
+    }
+
+    .overlay-tours {
+        height: 350px;
+    }
+
+    .overlay-tours h2 {
+        font-size: 26px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .tours-text h2 {
+        font-size: 28px;
+    }
+
+    .tours-text p {
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .tours-img {
+        flex-direction: column;
+        padding: 10px;
+        gap: 20px;
+    }
+
+    /* Image boxes */
+    .guided-tours-text-img,
+    .guided-tours-text-img-one,
+    .guided-tours-text-img-two,
+    .guided-tours-text-img-three {
+        width: 100%;
+        height: 280px;
+        background-attachment: scroll; /* mobile pe fixed hatao */
+    }
+
+    footer {
+        height: auto;
+        padding: 20px;
+    }
+}
+
+
+/* =======================================================
+   📱📲 Tablet (600px – 900px)
+   ======================================================= */
+@media (min-width: 600px) and (max-width: 900px) {
+
+    .navbar a {
+        font-size: 18px;
+    }
+
+    .tours {
+        height: 450px;
+    }
+
+    .overlay-tours {
+        height: 450px;
+    }
+
+    .tours-img {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .guided-tours-text-img,
+    .guided-tours-text-img-one,
+    .guided-tours-text-img-two,
+    .guided-tours-text-img-three {
+        width: 90%;
+        height: 350px;
+    }
+}

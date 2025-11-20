@@ -1,0 +1,100 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+ body {
+    overflow-x: hidden;
+}       
+header{
+    width: 100%;background-color:#3b3b3bde;display: flex;color: white;justify-content: space-between;align-items: center;
+    position: fixed;top: 0;left: 0;z-index: 1000;   
+}
+.logo{
+    color: #ffffff;font: 24px "open sans";
+}
+.head{
+    padding: 10px 20px;
+}
+.navbar{
+    padding: 20px 60px;
+}
+.navbar a{
+   text-decoration: none;color: #ffffff;margin: 15px;font-size: 20px;
+}
+  .path{
+        width: 100%;
+        height: 600px;background-color: silver;margin-top: 50px ;
+    }
+    .path {
+  text-align: center;
+  padding: 40px 0;
+  background-color: #f8f8f8;
+  margin-left: 50px;
+}
+.path iframe {
+  display: block;    /* iframe ko block banaya */
+  margin: 0 auto;  /*  automatically center kar diya */
+  border-radius: 10px;  /* optional: rounded corners */
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2); /* optional: shadow */
+  
+}
+.path h2 {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+  footer{
+        width: 100%;
+        height: 200px;background-color: #555555;display: flex;flex-direction: column;align-items: center;justify-content: center;
+    }
+    .footer{
+        text-align: center;
+    }
+    .footer p{
+        margin: 20px;font-size: 17px;
+    }
+   @media (max-width: 600px) {
+
+    header {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .logo {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .navbar {
+        padding: 10px;
+    }
+
+    .navbar a {
+        font-size: 16px;
+        margin: 8px;
+    }
+
+    /* PATH SECTION */
+    .path {
+        margin-left: 0;
+        padding: 20px 10px;
+        height: auto;
+    }
+
+    .path h2 {
+        font-size: 24px;
+    }
+
+    .path iframe {
+        width: 100%;
+        height: 250px;
+    }
+
+    footer {
+        height: auto;
+        padding: 20px;
+    }
+
+    .footer p {
+        font-size: 14px;
+    }
+}

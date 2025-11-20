@@ -1,0 +1,297 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+ body {
+    overflow-x: hidden;
+}       
+header{
+    width: 100%;background-color:#3b3b3bde;display: flex;color: white;justify-content: space-between;align-items: center;
+    position: fixed;top: 0;left: 0;z-index: 1000;   
+}
+.logo{
+    color: #ffffff;font: 24px "open sans";
+}
+.head{
+    padding: 10px 20px;
+}
+.navbar{
+    padding: 20px 60px;
+}
+.navbar a{
+   text-decoration: none;color: #ffffff;margin: 15px;font-size: 20px;
+}
+/* .first-img {
+  position: relative;
+  height: 100vh; /* full screen height */
+  /* overflow: hidden; */
+.first-img {
+    width: 100%;
+    height: 600px;
+    background-image: url('first img.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* 🔹 keeps image fixed in header */
+    position: relative;
+    /* overflow: hidden; */
+    margin-top: 83px;
+}
+.overlay{
+    position: absolute;top: 0;left: 0;width: 100%;height: 600px;box-shadow: 0 5px 10px rgb(0, 0, 0,0.5) ;display: flex;align-items: center;justify-content: center;
+}
+.overlay h2{
+    font-size: 40px;color: #ffffff;
+}
+.first-text{
+    text-align: center;padding: 50px;
+}
+.first-text h2{
+    font-size: 40px;color: #000000;
+}
+.first-text p{
+    color: #666666;font: "open sans";
+}
+span{
+    margin-left: 400px;
+}
+button{
+    padding: 15px 25px;background-color: transparent;border-radius: 30px;border: 2px solid ;color: white;
+    font-family: 'Poppins', sans-serif; 
+  font-size: 15px;                     
+    
+}
+button:hover{
+    background-color: white;color:#000000;border: 2px solid;border: none;
+}
+
+.first-box-content{
+    display: flex;
+}
+.first-box img{
+    width: 270px;height: 500px;
+     box-shadow: 0 10px 20px rgba(0,0,0,0.4); 
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.btn{
+    padding: 15px 25px;background-color: transparent;border-radius: 30px;border: 2px solid ;color:white;
+    font-family: 'Poppins', sans-serif; 
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);   margin: 390px 50px ;
+                 
+    
+}
+.btn:hover{
+    background-color: white;color: black;
+}
+.img-container{
+      position: relative;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 10px;
+  /* margin: 50px; */
+  /* overflow: visible; */
+}
+.overlay-box{
+    position: absolute;top: 0;left: 0;width: 750px;height: 500px; box-shadow: 0 5px 15px rgba(0,0,0,0.9); /* shadow effect */
+    }
+.img-container:hover img {
+  transform: scale(1.05);
+  /* filter: brightness(70%); */
+}
+.tours{
+    padding: 50px;
+}
+.tours h2{
+    text-align: center;padding: 50px;font-size: 40px;
+}
+.tours-btn{
+    padding: 15px 20px;background-color: green;color: white;cursor: pointer;
+}
+.tours-btn:hover{
+    background-color: rgba(0, 128, 0, 0.793);cursor: pointer;color: black;
+}
+.guided{
+    display: flex;align-items: center;  text-align: center;box-shadow: 0 10px 20px rgb(0, 0, 0,0.5);width: 100%;height: 500px;
+}
+.guided-tours-text{
+    margin: 20px;
+}
+.guided-tours-text h2{
+    font-size: 28px;color: #666666;
+}
+.guided-tours-text p{
+    color: #555555;text-align: left;margin-left: 50px;
+}
+.guided-tours-img{
+    padding: 50px;
+}
+.guided-tours-text-img img{
+    width: 150px;height: 100px;
+}
+.Contact h2{
+    text-align: center;padding: 50px;font-size: 40px;
+}
+.Contact-img{
+      width: 100%;
+    height: 600px;
+    background-image: url('Tharparkar-District-.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* 🔹 keeps image fixed in header */
+    position: relative;
+    overflow: hidden;
+}
+.Contact-info{
+     position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:start;
+    background: rgba(0,0,0,0.3); /* dark overlay */
+    color: white;
+    text-align: center;
+    
+    }
+    .Contact-info i{
+        margin-right: 20px;
+    }
+    .Contact-info h3{
+        margin-left: 100px;
+    }
+    .video{
+        padding: 50px;
+    }
+    footer{
+        width: 100%;
+        height: 200px;background-color: #555555;display: flex;flex-direction: column;align-items: center;justify-content: center;
+    }
+    .footer{
+        text-align: center;
+    }
+    .footer p{
+        margin: 20px;font-size: 17px;
+    }
+   @media (max-width: 600px) {
+
+    header {
+        flex-direction: column;
+          align-items: center;
+        padding: 15px 10px;
+        text-align: center;
+    }
+    .first-btn{
+        display: none;
+    }
+    .welcome{
+        font-size: 15px;text-align: center;
+    }
+    .logo {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .navbar {
+          display: flex;
+        flex-direction: row;       /* links ek line me */
+        flex-wrap: wrap;           /* agar jagah kam ho to neeche aa jayen */
+        justify-content: center;
+        padding: 0;
+        gap: 12px;
+    }
+
+    .navbar a {
+         font-size: 16px;
+        margin: 0;
+    }
+
+    .first-img {
+        height: 350px;
+        background-position: center;
+    }
+
+    .overlay {
+          height: 350px;
+        padding: 0 20px;  /* text sides se chipke ga nahi */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;  /* text center aayega vertically */
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    .overlay h2 {
+       font-size: 24px;
+        line-height: 32px;
+    }
+     .overlay p {
+        font-size: 18px;
+    }
+
+    .first-text {
+        padding: 30px 20px;
+    }
+
+    .first-text h2 {
+        font-size: 28px;
+    }
+
+    .first-text p {
+        font-size: 15px;
+    }
+
+    .first-box-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .first-box img {
+        width: 220px;
+        height: 320px;
+    }
+
+    .btn {
+        margin: 20px auto;
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+
+    .guided {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .guided-tours-text {
+        margin: 10px;
+    }
+
+    .guided-tours-text p {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .Contact-img {
+        height: 350px;
+    }
+
+    .Contact-info {
+        padding: 0 20px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .Contact-info h3 {
+        margin-left: 0;
+        font-size: 18px;
+    }
+
+    footer {
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+}
